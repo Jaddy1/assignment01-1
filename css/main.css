@@ -1,79 +1,103 @@
-header{
-	text-align: center;
+*, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
-
-.container{
-	width:90%;
-	max-width:960px;
-	margin:25px auto;
-	padding:5px 10px 5px 10px;
-
+body {
+  height: 100%;
 }
 
-.menu ul{
-	padding:10px;
-	list-style: none;
-	display:flex;
-	justify-content: center;
-	margin-bottom:10px;
-
+header {
+  text-align: center;
 }
 
-.menu a{
-	display:block;
-	padding-top: 5px;
-	text-decoration: none;
-	color:black;
-	font-size: 20px;
+h1 {
+  font-family: 'Neuton', serif;
+  font-size: 36px;
 }
 
-.menu li{
-	margin-left:25px;
-	margin-right:10px;
-	padding-left:10px;
-	padding-right:10px;
-	padding-bottom:10px;
-	text-align: center;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.menu a:hover{
-	background-color:#ccad00;
-	padding:10px;
-	border-radius:5px;
+ul {
+  list-style-type: none;
 }
 
-.para h2{
-	text-align: center;
+li {
+  display: inline;
 }
 
-.para{
-	background-color:rgb(132, 150, 160, 0.7);
-	padding:5px 10px 5px 10px;
-	margin:10px 5px 10px 5px;
-	border-radius: 5px;
+.bg-green {
+  background: linear-gradient(to top, #007D64, #04b894);;
 }
 
-.para img{
-	display:block;
-	margin:0 auto;
-	margin-bottom:15px;
+.bg-green-dark {
+  background: #004638;
 }
 
-.flowing-boxes{
-	display:flex;
-	justify-content:space-around;
-	flex-wrap:wrap;
-	padding-left:0;
+.bg-white {
+  background: linear-gradient(to right, #ffffff, #fffdfd);
 }
 
-.flowing-boxes li{
-	flex-basis:200px;
-	list-style-type:none;
-	border-left-style:solid;
-	border-color:#806c00;
-	padding:10px;
-	background-color: #ccad00;
-	margin:5px;
+.center {
+  justify-content: center;
+  align-items: center;
 }
 
+.container {
+  display: flex;
+  padding: 1em;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 2em;
+  max-width: 30em;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  margin: 0 0 0 1.25rem;
+  padding: 0;
+}
+
+.nav-link::before {
+  transition: 200ms ease-out;
+  height: 0.1563rem;
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 0%;
+  bottom: -0.125rem;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.vertical-align {
+  vertical-align: text-top;
+}
