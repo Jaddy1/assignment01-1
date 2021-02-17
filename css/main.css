@@ -55,12 +55,19 @@ li {
 .card {
   border-radius: 5px;
   padding: 2em;
-  max-width: 30em;
+  max-width: 40em;
 }
 
 .flex-col {
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #dfdede, #d3d2d2);
+  height: 10em;
 }
 
 .nav-link {
