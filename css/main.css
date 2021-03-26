@@ -1,7 +1,8 @@
 *, body {
   margin: 0;
   padding: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Garamond, serif;
+  color: black;
 }
 
 body {
@@ -15,6 +16,12 @@ header {
 h1 {
   font-family: 'Neuton', serif;
   font-size: 36px;
+  padding-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+
+p{
+  line-height: 1.75em;
 }
 
 a {
@@ -28,6 +35,7 @@ ul {
 
 li {
   display: inline;
+  letter-spacing: 0.1em;
 }
 
 .bg-green {

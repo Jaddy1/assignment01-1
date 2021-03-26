@@ -1,14 +1,21 @@
-# Assignment 02
+**Jeffron Addy**
 
-For this assignment, we were challenged with forking another student's repository and making some changes to their work. I made a couple of changes to the layout of the page.
+**DMS 290**
 
-- Navigation bar
-  - Changed the font size so that the navigation bar took slightly less space. In the original version, it was quite large. I believe that this improved usability, as there is now more screen real-estate to read the content of the page.
-  - Changed the color, as an embellishment. Used the same green as the city flag.
-- Main Content
-  - The original layout was very linear. I tried to make the page not as long by "staggering" the images next to their written content. I thought that this improved readability of the design.
-  - The original layout had text over a dark gray background. I changed these backgrounds to white to improve legibility.
-- Footer
-  - In the original design, the reference links over the yellow button was rather difficult to read. I removed the yellow background, and turned it into a footer that took up the entire width of the page, with black, underlined links to the reference material. Overally, I think that this improved the overall legibility of the design.
+# Assignment 07
 
-You can view the live design [here](https://emmacampbell.digitalscholar.rochester.edu/assignments/assignment02/index.html)
+**Old Fonts**
+
+- 'Work Sans', sans-serif
+- font-family: 'Neuton', serif;
+
+
+
+**Changes Made**
+
+- I changed the font of the body to Garamond serif then changed the line-height to 1.75em for the page to be more readable. 
+  - From the older version of the site, the words were a lot closer together and compact which made it a little hard to read.
+- I added padding to the bottom of the **h1**s  to leave more space between them and the content beneath it. Previously it was very close to the content but I added padding to make the page more readable and easier to differentiate the headings and the content below.
+- I added letter spacing to the **li**s in the navigation to fill up more space and make it look  a little more clean and readable.
+
+The website that I used from assignment 2 is [here](https://emmacampbell.digitalscholar.rochester.edu/assignments/assignment02/index.html)
